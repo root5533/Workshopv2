@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Maintenance - Driver Registration</title>
+    <title>Maintenance - Vehicle Registration</title>
     <?php require_once 'head.php'; ?>
 </head>
 <body>
@@ -12,35 +12,36 @@
         <?php require 'left_navbar.php';?>
         <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
             <div class="form-horizontal">
-                <h2>Driver Details</h2>
+                <h2>Vehicle Registration</h2>
                 <div class="form-group">
-                    <div class="control-label col-sm-2" for="name">Name\n(with initials)</div>
+                    <div class="control-label col-sm-2" for="name">Vehicle Brand</div>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="name" placeholder="Type here">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="control-label col-sm-2" for="NIC">NIC</div>
+                    <div class="control-label col-sm-2" for="NIC">Vehicle Type</div>
                     <div class="control-label col-sm-6">
                         <input class="form-control" type="text" id="nic" placeholder="Type here">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="control-label col-sm-2" for="driver_license">Driver License</div>
+                    <div class="control-label col-sm-2" for="driver_license">Vehicle Owner</div>
                     <div class="col-sm-6">
                         <input class="form-control" type="text" id="driver_license" placeholder="Type here">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="control-label col-sm-2" for="address">Address</div>
-                    <div class="col-sm-10">
-                        <input class="form-control" type="text" id="address" placeholder="Type here">
+                    <div class="control-label col-sm-2" for="contact">Vehicle Registration No.</div>
+                    <div class="col-sm-6">
+                        <input class="form-control" type="number" id="contact" placeholder="07X XXX XXXX">
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="control-label col-sm-2" for="contact">Contact Number</div>
+                    <div class="control-label col-sm-2" for="contact"></div>
                     <div class="col-sm-6">
-                        <input class="form-control" type="number" id="contact" placeholder="07X XXX XXXX">
+                        <button type="button" class="btn btn-info">Submit</button>
+                        <button type="button" class="btn btn-info">Reset Form</button>
                     </div>
                 </div>
             </div>
