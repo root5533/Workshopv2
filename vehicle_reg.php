@@ -34,7 +34,7 @@
                 <div class="form-group">
                     <div class="control-label col-sm-2" for="contact">Vehicle Registration No.</div>
                     <div class="col-sm-6">
-                        <input class="form-control" type="number" id="contact" placeholder="07X XXX XXXX">
+                        <input class="form-control" type="text" id="contact" placeholder="Type here">
                     </div>
                 </div>
                 <div class="form-group">

@@ -10,35 +10,16 @@
 <div class="container-fluid">
     <div class="row-content">
         <?php require 'left_navbar.php';?>
-        <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
-            <div class="form-horizontal">
-                <h2>Vehicle Entry Record</h2>
-                <div class="form-group">
-                    <div class="control-label col-sm-2" for="name">Vehicle Registration No. (License Plate)</div>
-                    <div class="col-sm-6">
-                        <input type="text" class="form-control" id="name" placeholder="Type here">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="control-label col-sm-2" for="contact"></div>
-                    <div class="col-sm-6">
-                        <button type="button" class="btn btn-info">Submit</button>
-                        <button type="button" class="btn btn-info">Reset Form</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-2 sidenav" id="right_nav">
+        <div class="col-sm-10 text-left" id="main_body" style="margin-bottom: 100px">
             <div class="panel panel-primary" style="margin-top: 20px">
                 <div class="panel-heading">
                     <div class="row">
-                        <div class="col-sm-6"><div>Pending Tasks</div></div>
+                        <div class="col-sm-6"><div>Daily Tasks</div></div>
                         <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">19</div></div>
                     </div>
                 </div>
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
-                    <span class="pull-right">-></i></span>
+                    <span class="pull-left"></span>
                     <div class="clearfix"></div>
                 </div>
             </div>
@@ -50,8 +31,7 @@
                     </div>
                 </div>
                 <div class="panel-footer">
-                    <span class="pull-left">View Details</span>
-                    <span class="pull-right">-></i></span>
+                    <span class="pull-left"></span>
                     <div class="clearfix"></div>
                 </div>
             </div>
