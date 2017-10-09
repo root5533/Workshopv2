@@ -9,33 +9,12 @@
 
 <div class="container-fluid">
     <div class="row-content">
-<<<<<<< HEAD
-        <div class="col-sm-2 sidebar-offcanvas" id="left_nav" role="navigation">
-            <ul class="nav">
-                <li class="active"><a href="#">Status</a></li>
-                <li><a href="#">Driver Registration</a></li>
-                <li><a href="#">Vehicle Registration</a></li>
-                <li><a href="#">Vehicle Entry Record</a></li>
-                <li><a href="#">Open Job Entry</a></li>
-                <li><a href="#">Assign Supervisor</a></li>
-                <li><a href="#">Stock Request</a></li>
-                <li><a href="#">Close Job Entry</a></li>
-                <li><a href="#">Issue GatePass</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
-            <h2>Driver Details</h2>
-            <div class="form-horizontal">
-                <div class="form-group">
-                    <div class="control-label col-sm-2" for="name">Name(with initials)</div>
-=======
         <?php require 'left_navbar.php';?>
         <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
             <div class="form-horizontal">
                 <h2>Driver Details</h2>
                 <div class="form-group">
                     <div class="control-label col-sm-2" for="name">Name (with initials)</div>
->>>>>>> a7b67120e17f73aefb130a5e0d4ad527b30ebd95
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="name" placeholder="Type here">
                     </div>
@@ -64,8 +43,7 @@
                         <input class="form-control" type="number" id="contact" placeholder="07X XXX XXXX">
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
+
                 <div class="form-group">
                     <div class="control-label col-sm-2" for="contact"></div>
                     <div class="col-sm-6">
@@ -73,7 +51,6 @@
                         <button type="button" class="btn btn-info">Reset Form</button>
                     </div>
                 </div>
->>>>>>> a7b67120e17f73aefb130a5e0d4ad527b30ebd95
             </div>
         </div>
         <div class="col-sm-2 sidenav" id="right_nav">

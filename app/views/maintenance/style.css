@@ -29,13 +29,3 @@ div#container {
     /*padding:0 1em;*/
 /*}*/
 
-div#footer {
-    position:absolute;
-    width:100%;
-    bottom:0; /* stick to bottom */
-}
-
-div#footer p {
-    padding:1em;
-    margin:0;
-}

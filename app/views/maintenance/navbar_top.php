@@ -14,8 +14,8 @@ echo
         <div class=\"collapse navbar-collapse\" id=\"myNavbar\">
             <ul class=\"nav navbar-nav navbar-collapse\">
                 <li>&emsp;</li>
-                <li class=\"active\"><a href=\"index.php\">Home</a></li>
-                <li><a href=\"driver_reg.php\">Maintenance</a></li>
+                <li><a href=\"index.php\">Home</a></li>
+                <li class=\"active\"><a href=\"status.php\">Maintenance</a></li>
                 <li><a href=\"#\">Equipment</a></li>
                 <li><a href=\"#\">Electrical</a></li>
                 <li><a href=\"#\">Production</a> </li>

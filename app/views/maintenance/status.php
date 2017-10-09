@@ -14,7 +14,7 @@
             <div class="panel panel-primary" style="margin-top: 20px">
                 <div class="panel-heading">
                     <div class="row">
-                        <div class="col-sm-6"><div>Daily Tasks</div></div>
+                        <div class="col-sm-6"><div>Pending Tasks</div></div>
                         <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">19</div></div>
                     </div>
                 </div>
@@ -27,6 +27,18 @@
                 <div class="panel-heading">
                     <div class="row">
                         <div class="col-sm-6"><div>VIP Tasks</div></div>
+                        <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">7</div></div>
+                    </div>
+                </div>
+                <div class="panel-footer">
+                    <span class="pull-left"></span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="panel panel-warning" style="margin-top: 20px">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-sm-6"><div>Assigned Tasks</div></div>
                         <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">7</div></div>
                     </div>
                 </div>
