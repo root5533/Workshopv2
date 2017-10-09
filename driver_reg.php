@@ -23,10 +23,10 @@
             </ul>
         </div>
         <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
+            <h2>Driver Details</h2>
             <div class="form-horizontal">
-                <h2>Driver Details</h2>
                 <div class="form-group">
-                    <div class="control-label col-sm-2" for="name">Name\n(with initials)</div>
+                    <div class="control-label col-sm-2" for="name">Name(with initials)</div>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" id="name" placeholder="Type here">
                     </div>
