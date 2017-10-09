@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>Maintenance - Vehicle Registration</title>
+    <title>Maintenance - Vehicle Entry Record</title>
     <?php require_once 'head.php'; ?>
 </head>
 <body>
