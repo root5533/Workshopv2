@@ -9,11 +9,8 @@
 
 <div class="container-fluid">
     <div class="row-content">
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 97d6e6e359d55345a2b5baa14f20e406d60e0186
         <?php require 'left_navbar.php';?>
         <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
             <div class="form-horizontal">
@@ -48,10 +45,7 @@
                         <input class="form-control" type="number" id="contact" placeholder="07X XXX XXXX">
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> 97d6e6e359d55345a2b5baa14f20e406d60e0186
                 <div class="form-group">
                     <div class="control-label col-sm-2" for="contact"></div>
                     <div class="col-sm-6">

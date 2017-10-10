@@ -2,9 +2,9 @@
 
 <head>
     <title>Production - Status</title>
-    <?php require_once '../head.php'; ?>
+    <?php require_once 'head.php'; ?>
 </head>
-<?php require_once '../navbar_top.php'; ?>
+<?php require_once 'navbar_top.php'; ?>
 
 <body>
 <div class="container-fluid">

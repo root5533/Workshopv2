@@ -14,12 +14,18 @@ echo
         <div class=\"collapse navbar-collapse\" id=\"myNavbar\">
             <ul class=\"nav navbar-nav navbar-collapse\">
                 <li>&emsp;</li>
-                <li class=\"active\"><a href='$base_url/home/index'>Home</a></li>
+                <li class='active'><a href='$base_url/home/index'>Home</a></li>
+                                
                 <li><a href='$base_url/home/load_view/maintenance'>Maintenance</a></li>
-                <li><a href=\"#\">Equipment</a></li>
-                <li><a href=\"#\">Electrical</a></li>
-                <li><a href=\"#\">Production</a> </li>
-                <li><a href=\"#\">About</a> </li>
+                
+                <li><a href='$base_url/home/load_view/equipment'>Equipment</a></li>
+                
+                <li><a href='$base_url/home/load_view/electrical'>Electrical</a></li>
+                
+                <li><a href='$base_url/home/load_view/production'>Production</a> </li>
+                
+                <li><a href='#'>About</a> </li>
+                
             </ul>
             <ul class=\"nav navbar-nav navbar-right\">
                 <li><a href=\"#\"><span class=\"glyphicon glyphicon-log-in\"></span>&ensp;Login</a></li>

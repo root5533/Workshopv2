@@ -20,9 +20,9 @@ echo
                 
                 <li><a href='$base_url/home/load_view/equipment'>Equipment</a></li>
                 
-                <li class='active'><a href='$base_url/home/load_view/electrical'>Electrical</a></li>
+                <li><a href='$base_url/home/load_view/electrical'>Electrical</a></li>
                 
-                <li><a href='$base_url/home/load_view/production'>Production</a> </li>
+                <li class='active'><a href='$base_url/home/load_view/production'>Production</a> </li>
                 
                 <li><a href='#'>About</a> </li>
                 
