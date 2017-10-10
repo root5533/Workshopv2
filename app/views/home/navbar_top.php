@@ -15,7 +15,7 @@ echo
             <ul class=\"nav navbar-nav navbar-collapse\">
                 <li>&emsp;</li>
                 <li class=\"active\"><a href='$base_url/home/index'>Home</a></li>
-                <li><a href=\"driver_reg.php\">Maintenance</a></li>
+                <li><a href='$base_url/home/load_view/maintenance'>Maintenance</a></li>
                 <li><a href=\"#\">Equipment</a></li>
                 <li><a href=\"#\">Electrical</a></li>
                 <li><a href=\"#\">Production</a> </li>

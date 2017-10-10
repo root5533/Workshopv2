@@ -1,5 +1,7 @@
 <?php
 
+define('BASE_URL', 'http://example.com');
+
 class app
 {
 
@@ -7,7 +9,9 @@ class app
     protected $method = 'index';
     protected $params = [];
 
+
     public function __construct() {
+
         $url = $this->parseUrl();
 
         if(file_exists('../app/controllers/' . $url[0] . '.php')) {

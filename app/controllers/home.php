@@ -6,10 +6,18 @@
  * Time: 11:00 AM
  */
 
-class home extends controller
+class home extends Controller
 {
+
     public function index() {
-        echo "home/index";
+        $this->view('home/index');
+//        $model = $this->model('index');
+    }
+
+    public function load_view($view) {
+        if($view == 'maintenance') {
+            $this->view('maintenance/driver_reg');
+        }
     }
 
 }
