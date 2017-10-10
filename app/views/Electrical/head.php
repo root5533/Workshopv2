@@ -1,7 +1,5 @@
 <?php
 
-$base_url = "/Workshopv2/public";
-
 echo
 "<meta charset=\"utf-8\">
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
@@ -81,14 +79,7 @@ echo
                 padding-top: 0;
             }
         }
-        
-        li.active{
-            background-color:#d9dfdc;
-            font-weight: bold;
-        }
-        
-        
-        
+
 
         /* On small screens, set height to 'auto' for sidenav and grid */
         /*@media screen and (max-width: 767px) {*/
