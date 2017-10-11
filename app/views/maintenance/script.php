@@ -2,12 +2,17 @@
 
 echo "
 
-<script>
-    function onClickLeftSideNavBarItem(item_id) {
+        <script>
         
-            item_id.style.backgroundColor='#d9dfdc';
-    }
-</script>";
+            // On click function of left side navigation bar items to active mode
+            function onClickLeftSideNavBarItem(item_id) {
+        
+                document.getElementById(item_id).className = \"active\";
+        
+            }
+        </script>
+
+";
 
 
 

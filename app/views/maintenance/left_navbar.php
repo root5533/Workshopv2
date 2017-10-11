@@ -1,8 +1,11 @@
 <?php
 
-require 'script.php';
+include 'script.php';
 
-echo "<div class=\"col-sm-2 sidebar-offcanvas\" id=\"left_nav\" role=\"navigation\" style='padding: 0px;'>
+echo "          
+
+
+        <div class=\"col-sm-2 sidebar-offcanvas\" id=\"left_nav\" role=\"navigation\" style='padding: 0px;'>
             <ul class=\"nav\">
                 <li id='left_nav_item_1' onclick='onClickLeftSideNavBarItem(this.id)'><a href=\"status.php\">Status</a></li>
                 <li id='left_nav_item_2' onclick='onClickLeftSideNavBarItem(this.id)'><a href=\"driver_reg.php\">Driver Registration</a></li>
@@ -14,4 +17,7 @@ echo "<div class=\"col-sm-2 sidebar-offcanvas\" id=\"left_nav\" role=\"navigatio
                 <li id='left_nav_item_8' onclick='onClickLeftSideNavBarItem(this.id)'><a href=\"close_job_entry.php\">Close Job Entry</a></li>
                 <li id='left_nav_item_9' onclick='onClickLeftSideNavBarItem(this.id)'><a href=\"issue_gate_pass.php\">Issue GatePass</a></li>
             </ul>
-        </div>"; ?>
+        </div>
+               
+        
+";
