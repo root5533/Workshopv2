@@ -8,6 +8,12 @@
 <?php require_once 'navbar_top.php'; ?>
 
 <div class="container-fluid">
+    <?php
+        if(isset($data['message'])) {
+            $m = $data['message'];
+            echo "<h2>$m</h2>";
+        }
+    ?>
     <div class="row-content">
         <?php require 'left_navbar.php';?>
         <div class="col-sm-10 text-left" id="main_body" style="margin-bottom: 100px">

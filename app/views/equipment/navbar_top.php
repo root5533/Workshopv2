@@ -16,9 +16,9 @@ echo
                 <li>&emsp;</li>
                 <li><a href='$base_url/home/index'>Home</a></li>
                                 
-                <li class='active'><a href='$base_url/home/load_view/maintenance'>Maintenance</a></li>
+                <li><a href='$base_url/home/load_view/maintenance'>Maintenance</a></li>
                 
-                <li><a href='$base_url/home/load_view/equipment'>Equipment</a></li>
+                <li class='active'><a href='$base_url/home/load_view/equipment'>Equipment</a></li>
                 
                 <li><a href='$base_url/home/load_view/electrical'>Electrical</a></li>
                 
