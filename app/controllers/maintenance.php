@@ -65,13 +65,14 @@ class Maintenance extends Controller {
                 $error['contact_error'] = "*Please provide a valid contact number";
             }
             if (isset($error) == FALSE) {
+                echo "<h2>no errors</h2>";
                 $model = $this->model('driver_model');
                 $data = array(
                     'name' => $name,
                     'nic' => $nic,
                     'license' => $license,
                     'address' => $address,
-                    '$contact' => $contact
+                    'contact' => $contact
                 );
 
                 $result = $model->insert($data);
@@ -90,12 +91,13 @@ class Maintenance extends Controller {
                 $this->view('maintenance/driver_reg',$data, []);
             }
             else {
+                echo "<h2>Came here</h2>";
                 $data = array(
                     'name' => $name,
                     'nic' => $nic,
                     'license' => $license,
                     'address' => $address,
-                    '$contact' => $contact
+                    'contact' => $contact
                 );
                 $this->view('maintenance/driver_reg', $data, $error);
             }
