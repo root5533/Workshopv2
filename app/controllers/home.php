@@ -19,13 +19,13 @@ class home extends Controller
             $this->view('maintenance/status');
         }
         elseif ($view == 'production') {
-            $this->view('production/status');
+            $this->view('production/index');
         }
         elseif ($view == 'electrical') {
-            $this->view('electrical/open_complains');
+            $this->view('electrical/index');
         }
         elseif ($view == 'equipment') {
-            $this->view('equipment/status');
+            $this->view('equipment/index');
         }
         else {
             $this->view('home/index');

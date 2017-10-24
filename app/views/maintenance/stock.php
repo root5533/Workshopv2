@@ -13,20 +13,38 @@
     <?php require_once 'top_bar.php'; ?>
 
     <div class="w3-container w3-padding-large">
-
+        <h2><b>Stock</b></h2>
+        <?php
+        if (isset($data['message'])) {
+            echo "<p style='color: green;'>" . $data['message'] . "</p>";
+        } ?>
     </div>
 
     <div class="w3-row-padding">
         <div class="w3-container w3-margin-bottom">
             <div class="w3-container w3-white w3-padding-large">
                 <div class="row-content">
-                    <h3>Welcome</h3>
+                    <div class="w3-bar w3-teal w3-medium">
+                        <button class="w3-bar-item w3-button" style="width: 50%;" onclick="openVehicleForm('vehicleReg')">Stock</button>
+                        <button class="w3-bar-item w3-button" style="width :50%;" onclick="openVehicleForm('vehicleEntry')">Stock</button>
+                    </div>
                 </div>
+                <div id="vehicleReg" class="w3-container vehicle">
+
+                </div>
+
+                <div id="vehicleEntry" class="w3-container vehicle" style="display:none">
+
+                </div>
+                </form>
             </div>
         </div>
     </div>
+</div>
 
-    <!--    --><?php //require_once 'footer.php'; ?>
+
+
+<!--    --><?php //require_once 'footer.php'; ?>
 
 </div>
 </body>
@@ -43,6 +61,15 @@
     function w3_close() {
         document.getElementById("mySidebar").style.display = "none";
         document.getElementById("myOverlay").style.display = "none";
+    }
+
+    function openVehicleForm(vehicleForm) {
+        var i;
+        var x = document.getElementsByClassName("vehicle");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(vehicleForm).style.display = "block";
     }
 </script>
 

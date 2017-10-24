@@ -1,64 +1,50 @@
+<!DOCTYPE>
+
 <html>
-<head>
-    <title>Maintenance - Status</title>
-    <?php require_once 'head.php'; ?>
-</head>
-<body>
 
-<?php require_once 'navbar_top.php'; ?>
+<?php require_once 'head.php'; ?>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<?php require_once 'side_bar.php'; ?>
 
-<div class="container-fluid">
-    <?php
-        if(isset($data['message'])) {
-            $m = $data['message'];
-            echo "<h2>$m</h2>";
-        }
-    ?>
-    <div class="row-content">
-        <?php require 'left_navbar.php';?>
-        <div class="col-sm-10 text-left" id="main_body" style="margin-bottom: 100px">
-            <div class="panel panel-primary" style="margin-top: 20px">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-sm-6"><div>Pending Tasks</div></div>
-                        <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">19</div></div>
-                    </div>
-                </div>
-                <div class="panel-footer">
-                    <span class="pull-left"></span>
-                    <div class="clearfix"></div>
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:300px">
+
+    <?php require_once 'top_bar.php'; ?>
+
+    <div class="w3-container w3-padding-large">
+
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-container w3-margin-bottom">
+            <div class="w3-container w3-white w3-padding-large">
+                <div class="row-content">
+
                 </div>
             </div>
-            <div class="panel panel-danger" style="margin-top: 20px">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-sm-6"><div>VIP Tasks</div></div>
-                        <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">7</div></div>
-                    </div>
-                </div>
-                <div class="panel-footer">
-                    <span class="pull-left"></span>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div class="panel panel-warning" style="margin-top: 20px">
-                <div class="panel-heading">
-                    <div class="row">
-                        <div class="col-sm-6"><div>Assigned Tasks</div></div>
-                        <div class="col-sm-6"><div class="pull-right" style="font-size: xx-large">7</div></div>
-                    </div>
-                </div>
-                <div class="panel-footer">
-                    <span class="pull-left"></span>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-            <div style="margin-bottom: 100px;"></div>
         </div>
     </div>
+
+    <!--    --><?php //require_once 'footer.php'; ?>
+
 </div>
-
-<?php require_once 'foot.php' ?>
-
 </body>
+
+
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+
+
 </html>

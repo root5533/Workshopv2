@@ -1,97 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>CMC Home</title>
-    <?php require_once 'head.php'; ?>
-</head>
-<body>
+<!DOCTYPE>
 
-<!--<script>-->
-<!--    $(document).ready(function(){-->
-<!--        var height = Math.max(height);-->
-<!--        $("#main_body").height($(document).height());-->
-<!--        $("#left_nav").height($(document).height());-->
-<!--        $("#right_nav").height($(document).height());-->
-<!--    });-->
-<!--</script>-->
+<html>
 
-<!--navigation bar start-->
-<?php require_once 'navbar_top.php'; ?>
-<!--navigation bar end-->
+<?php require_once 'head.php'; ?>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<?php require_once 'side_bar.php'; ?>
 
-<div class="jumbotron">
-    <div class="row">
-        <div class="col-md-3">
-            <img src="<?php echo $base_url; ?>/images/cmc_logo.png" class="img-responsive" alt="CMC" width="160" height="250" style="margin: auto">
-        </div>
-        <div class="col-md-9">
-            <h1>Colombo Municipal Council</h1>
-            <h2>Workshop Management System</h2>
-        </div>
-    </div>
-</div>
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-<!--left side navbar start-->
-<div class="container-fluid text-center">
-    <div class="row content">
-        <div class="col-sm-2 sidenav" id="left_nav">
-            <p><a href="#">Link</a></p>
-            <p><a href="#">Link</a></p>
-            <p><a href="#">Link</a></p>
-        </div>
-<!--left side navbar end-->
+<div class="w3-main" style="margin-left:300px">
 
-<!--middle body start-->
-        <div class="col-sm-8 text-left" id="main_body" style="margin-bottom: 100px">
-            <h1>Welcome to CMC Workshop</h1>
-            <p id="demo">Right here</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <hr>
-            <h3>Test</h3>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <p>Lorem ipsum...</p>
-            <div style="padding-bottom: 50px;"></div>
+    <?php require_once 'top_bar.php'; ?>
 
-        </div>
-<!--middle body end-->
-
-<!--right navbar start-->
-        <div class="col-sm-2 sidenav" id="right_nav">
-            <!--            <div class="well">-->
-            <!--                <p>ADS</p>-->
-            <!--            </div>-->
-            <!--            <div class="well">-->
-            <!--                <p>ADS</p>-->
-            <!--            </div>-->
-        </div>
+    <div class="w3-container w3-padding-large">
 
     </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-container w3-margin-bottom">
+            <div class="w3-container w3-white w3-padding-large">
+                <div class="row-content">
+                    <h3>Welcome</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    --><?php //require_once 'footer.php'; ?>
+
 </div>
-<!--right navbar end-->
-
-<?php require_once 'foot.php' ?>
-
 </body>
+
+
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+</script>
+
+
 </html>
