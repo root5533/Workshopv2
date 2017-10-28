@@ -10,8 +10,9 @@ class home extends Controller
 {
 
     public function index() {
-        $this->view('home/index');
+        //$this->view('home/index');
 //        $model = $this->model('index');
+        $this->view('template/form_template');
     }
 
     public function load_view($view) {
