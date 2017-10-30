@@ -26,7 +26,7 @@
                 <div class="row-content">
                     <h3>Open Complains</h3>
                     <div class="col-sm-8" style="padding-top: 10px;">
-                        <form action=<?php echo "$base_url/Electrical/open_complains" ?> method="post">
+                        <form action=<?php echo "$base_url/Electrical/complains_registration" ?> method="post">
                             <div class="form-group">
                                 <label for="street_lamp_number">Street Lamp Number</label>
                                 <input type="text" class="form-control" id="street_lamp_number" placeholder="Type here" name="street_lamp_number"
