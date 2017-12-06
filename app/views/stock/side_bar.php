@@ -12,7 +12,7 @@ echo
     </div>
     <div class='w3-bar-block'>
         <button class='w3-button w3-large w3-block w3-teal' style=''><a href='remain_stocks.php' onclick='w3_close()' class='w3-bar-item w3-button w3-padding w3-large'><i class='fa fa-th-large fa-fw w3-margin-right'></i>Remain Stocks</a></button>
-        <button class='w3-button w3-large w3-block' style=''><a href='summary_chart.php' onclick='w3_close()' class='w3-bar-item w3-button w3-padding w3-large'><i class='fa fa-th-large fa-fw w3-margin-right'></i>Summary</a></button>
+        <button class='w3-button w3-large w3-block' style=''><a href='summary_chart_new.php' onclick='w3_close()' class='w3-bar-item w3-button w3-padding w3-large'><i class='fa fa-th-large fa-fw w3-margin-right'></i>Summary</a></button>
     </div>
     
 </nav>
